@@ -4,3 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+form > * {
+  margin: 0.5rem;
+}
